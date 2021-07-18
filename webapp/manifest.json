@@ -1,0 +1,104 @@
+{
+	"_version": "1.4.0",
+	"sap.app": {
+		"id": "myfiori",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{title}}",
+		"description": "{{description}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {
+			"anubhavService": {
+				"uri": "/sap/opu/odata/sap/MYSERVICE",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"icons": {
+			"icon": "sap-icon://home",
+			"phone": "sap-icon://home",
+			"phone@2": "sap-icon://home",
+			"tablet": "sap-icon://home",
+			"tablet@2": "sap-icon://home",
+			"favIcon": "sap-icon://home"
+		},
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_hcb", "sap_bluecrystal"]
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.38.0",
+			"libs": {
+				"sap.ui.core": {
+					"version": "1.38.0"
+				},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.viz": {
+					"lazy": true
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"rootView":{
+			"viewName":"myfiori.view.App",
+			"type":"XML",
+			"id":"app"
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "myfiori.view",
+				"controlId": "idAnubhav"
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "master",
+				"target": ["donald"]
+			}, {
+				"pattern": "zkas/{frtName}",
+				"name": "detail",
+				"target": ["trumph"]
+			}],
+			"targets": {
+				"donald": {
+					"viewName": "FirstView",
+					"controlAggregation": "masterPages",
+					"viewId": "idFirstView"
+				},
+				"trumph": {
+					"viewName": "SecondView",
+					"controlAggregation": "detailPages",
+					"viewId": "idSecondView"
+				}
+			}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "myfiori.i18n.i18n"
+				}
+			},
+			"odata": {
+				"dataSource": "anubhavService",
+				"preload": true
+			}
+		}
+	}
+}

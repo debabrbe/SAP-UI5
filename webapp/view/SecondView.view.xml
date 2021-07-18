@@ -1,0 +1,97 @@
+<mvc:View xmlns:core="sap.ui.core" 
+xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+xmlns:f="sap.ui.layout.form"
+xmlns:anubhav="myfiori.controls"
+xmlns:html="http://www.w3.org/1999/xhtml" controllerName="myfiori.controller.SecondView">
+	<Page title="My Second View" showNavButton="true" navButtonPress="onBack">
+		<content>
+			<ObjectHeader title="{name}" intro="{usage}" number="{price}" numberUnit="{currency}"
+						  icon="{Image}"></ObjectHeader>
+			<!--<Button text="Back" press="onBack"/>-->
+			<!--<Input width="100%" id="__input0"/>-->
+			<IconTabBar>
+				<items>
+					<IconTabFilter text="{i18n>XLBL_MD}" key="MD" icon="sap-icon://product"
+					iconColor="Positive">
+						<core:Fragment fragmentName="myfiori.fragments.additionalData" id="displayForm" 
+						type="XML">
+						</core:Fragment>
+						<core:Fragment fragmentName="myfiori.fragments.changeAdditionalData" id="changeForm"
+							type="XML"></core:Fragment>
+					</IconTabFilter>
+					<IconTabFilter text="{i18n>XLBL_Table}" key="TAB" icon="sap-icon://table-view"
+					iconColor="Neutral">
+						<Table id="idTab" items="{viewModel>/fruits}">
+							<columns>
+								<Column>
+									<header>
+										<Label text="{i18n>XLBL_NA}"></Label>
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Label text="{i18n>XLBL_TY}"></Label>
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Label text="Color"></Label>
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Label text="Availability"></Label>
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Label text="Country"></Label>
+									</header>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{viewModel>name}"></Text>
+										<Input value="{viewModel>type}"></Input>
+										<Text text="{viewModel>color}"></Text>
+										<!--<Text text="{viewModel>status}"></Text>-->
+										<ObjectStatus text="{viewModel>status}"
+													  state="{
+														path: 'viewModel>status',
+														formatter: '.myFormatter.getState'
+													  }"
+													  icon="{
+														path: 'viewModel>status',
+														formatter: '.myFormatter.getIcon'
+													  }"></ObjectStatus>
+										<Input showValueHelp="true" valueHelpRequest="onCity"></Input>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</IconTabFilter>
+					<IconTabFilter text="{i18n>XLBL_SP}" key="Supp" icon="sap-icon://customer"
+					iconColor="Negative">
+						<Input id="idSupp" width="300px" showValueHelp="true"
+						valueHelpRequest="onSupplier" value="{sampleModel>/inp}"
+						visible="{
+							path: 'sampleModel>/inp',
+							formatter: '.myFormatter.checkStatus'
+						}"></Input>
+						
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer />
+				<anubhav:superButton text="Super Button" mario="onMario"></anubhav:superButton>
+				<Button tooltip="Click to edit the data" text="Edit" visible="{sampleModel>/myVis}" press="changeMode"></Button>
+				<Button text="Save" visible="{= !${sampleModel>/myVis}}" press="changeMode"></Button>
+				<Button text="Approve" type="Reject" press="onApprove"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

@@ -1,0 +1,334 @@
+{
+	"AnubhavFruitStore": "oAFST",
+	"fruits": [
+		{
+			"name": "Orange",
+			"type": "citrus",
+			"usage": "Fruit",
+			"color": "Orange", 
+			"Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVgWfd4ZJF1g_rFj7MGB-1e7iGhJ7z11pKstlSn7kVCrWhsdKo",
+			"price": "60",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Apple",
+			"type": "fruit",
+			"usage": "Fruit",
+			"color": "Red",
+			"Image": "http://wellness-london.com/wp-content/uploads/2017/09/apple.jpg",
+			"price": "100",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Banana",
+			"type": "fruit",
+			"usage": "Fruit",
+			"color": "Yellow",
+			"Image": "https://parentinghealthybabies.com/wp-content/uploads/2013/01/banana-2.jpg",
+			"price": "20",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Strawberry",
+			"type": "Berries",
+			"usage": "Fruit",
+			"color": "Red",
+			"Image": "http://mindful.ninja/wp-content/uploads/2014/10/strawberry.jpg",
+			"price": "120",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Kiwi",
+			"type": "citrus",
+			"usage": "Fruit",
+			"color": "brown",
+			"Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCLrVHnvT1eLsaa_h_1AQoRGzWx7Lvt_bJAnE8UcjUbyhuCvkdfw",
+			"price": "90",
+			"currency": "INR",
+			"status": "Discontinued"
+		},
+		{
+			"name": "PineApple",
+			"type": "Tree Fruit",
+			"usage": "Fruit",
+			"color": "yellow",
+			"Image": "https://i.ebayimg.com/images/g/T4QAAOSwnNBXcCng/s-l300.jpg",
+			"price": "100",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Avocado",
+			"type": "Tree Fruit",
+			"usage": "Fruit",
+			"color": "Green",
+			"Image": "https://www.organicfacts.net/wp-content/uploads/avocado.jpg",
+			"price": "180",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Apricot",
+			"type": "Prunus",
+			"usage": "Fruit",
+			"color": "Vivid Orange",
+			"Image": "http://joshgitalis.wpengine.netdna-cdn.com/wp-content/uploads/2012/07/apricots2.jpg",
+			"price": "160",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Mango",
+			"type": "Stone Fruit",
+			"usage": "Fruit",
+			"color": "yellow",
+			"Image": "http://media.mercola.com/assets/images/foodfacts/mango-nutrition-facts.jpg",
+			"price": "100",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Dates",
+			"type": "Sweet Fruit",
+			"usage": "Fruit",
+			"color": "Brown",
+			"Image": "http://cdn2.stylecraze.com/wp-content/uploads/2013/04/91-shutterstock_394255045.jpg",
+			"price": "170",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Peach",
+			"type": "nectarine",
+			"usage": "Fruit",
+			"color": "Red",
+			"Image": "https://static1.squarespace.com/static/55359ac0e4b0a48fd270d2fa/t/5546f310e4b015ca719c53fd/1430713111513/",
+			"price": "120",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Cherry",
+			"type": "Prunus",
+			"usage": "Fruit",
+			"color": "Red",
+			"Image": "http://sweetfrog.com/images/uploads/updated-flavors/Orchard-Cherry.jpg",
+			"price": "120",
+			"currency": "INR",
+			"status": "Discontinued"
+		},
+		{
+			"name": "Almond",
+			"type": "Prunus",
+			"usage": "Fruit",
+			"color": "Brown",
+			"Image": "https://alignlife.com/wp-content/uploads/2013/06/almonds.jpg",
+			"price": "180",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Papaya",
+			"type": "Tropical fruit",
+			"usage": "Fruit",
+			"color": "Yellow",
+			"Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy03ZvkVLzwZD0sEj4BGFeAixyANLzfgAOSGEIxhcl4pu_p_AOhQ",
+			"price": "150",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Raspberry",
+			"type": "Rubus",
+			"usage": "Fruit",
+			"color": "Red",
+			"Image": "https://cdn.shopify.com/s/files/1/0280/3011/products/Three_Raspberries.jpg?v=1461855003",
+			"price": "120",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Grape",
+			"type": "Berries",
+			"usage": "Fruit",
+			"color": "Green",
+			"Image": "http://www.fumari.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/h/o/hookah-tobacco-white-grape.png",
+			"price": "110",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Grapefruit",
+			"type": "subtropical citrus",
+			"usage": "Fruit",
+			"color": "Green",
+			"Image": "http://www.wonderfulcitrus.com/content/dam/websites/citrus/paramount_citrus_grapefruit_large.png",
+			"price": "90",
+			"currency": "INR",
+			"status": "Discontinued"
+		},
+		{
+			"name": "Fig",
+			"type": "Fig",
+			"usage": "Fruit",
+			"color": "Green",
+			"Image": "https://rusticescentuals.com/images/P/medi-fig.jpg",
+			"price": "160",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Guava",
+			"type": "Tropical fruits",
+			"usage": "Fruit",
+			"color": "Green",
+			"Image": "https://static.turbosquid.com/Preview/2014/07/06__18_08_57/Fruit_02_Guava.jpg8de4a496-46f9-4d3a-8bbe-8f1873964377Large.jpg",
+			"price": "80",
+			"currency": "INR",
+			"status": "Out of Stock"
+		},
+		{
+			"name": "Blueberry",
+			"type": "Berries",
+			"usage": "Fruit",
+			"color": "Blue",
+			"Image": "https://www.wishfarms.com/wp-content/uploads/2015/09/berries_main_image2.jpg",
+			"price": "180",
+			"currency": "INR",
+			"status": "Available"
+		},
+		{
+			"name": "Citrus Lemon",
+			"type": "citrus",
+			"usage": "Fruit",
+			"color": "Blue",
+			"Image": "https://www.wishfarms.com/wp-content/uploads/2015/09/berries_main_image2.jpg",
+			"price": "180",
+			"currency": "INR",
+			"status": "Out of Stock"
+		}
+	],
+
+	"suppliers": [{
+			"name": "Punjab Fruitwala",
+			"SupplierID": "FWA",
+			"State": "Punjab",
+			"Address": "Ferozpr Punjab India",
+			"Zipcode": "23450",
+			"Telphone": "945678934"
+		},
+		{
+			"name": "Andhra Mangoes",
+			"SupplierID": "AMG",
+			"State": "AP",
+			"Address": "Raikot Andhra India",
+			"Zipcode": "55450",
+			"Telphone": "755678674"
+		},
+		{
+			"name": "Nature's Fresh",
+			"SupplierID": "NFS",
+			"State": "Kerala",
+			"Address": "Mysore Kerala India",
+			"Zipcode": "67450",
+			"Telphone": "567678567"
+		},
+		{
+			"name": "Fruit Market",
+			"SupplierID": "FMT",
+			"State": "AP",
+			"Address": "Raayalsima Telangana India",
+			"Zipcode": "45660",
+			"Telphone": "764568556"
+		},
+		{
+			"name": "Fruit Farm",
+			"SupplierID": "FFM",
+			"State": "Delhi",
+			"Address": "Rama Vihar Delhi India",
+			"Zipcode": "56760",
+			"Telphone": "9811195204"
+		},
+		{
+			"name": "Acre Farms",
+			"SupplierID": "ACF",
+			"State": "Delhi",
+			"Address": "Mohan Drive Delhi 110047, India",
+			"Zipcode": "57760",
+			"Telphone": "9818988111"
+		},
+		{
+			"name": "Homegrown Fruit",
+			"SupplierID": "HGF",
+			"State": "Kerala",
+			"Address": "Dhanushkodi Rd, Adimali, Kerala India",
+			"Zipcode": "65760",
+			"Telphone": "8113966633"
+		},
+		{
+			"name": "Manjananickal Fruits Farm",
+			"SupplierID": "MFF",
+			"State": "Kerala",
+			"Address": "Chotty, Kerala 686512, India",
+			"Zipcode": "67760",
+			"Telphone": "7558909006"
+		},
+		{
+			"name": "Periwal Fruit Farm",
+			"SupplierID": "PFF",
+			"State": "Punjab",
+			"Address": "Punjab 152128, India",
+			"Zipcode": "23656",
+			"Telphone": "9417201429"
+		},
+		{
+			"name": "Gill Fruit Farm",
+			"SupplierID": "GFF",
+			"State": "Punjab",
+			"Address": "Gill Fruit farm, India",
+			"Zipcode": "25676",
+			"Telphone": "97798 07733"
+		}
+	],
+
+	"cityNames": [{
+			"name": "Chandigarh",
+			"Location": "Fruit Mandi, Sector 26 East, Chandigarh, 160101, India",
+			"Telephone": "1722793900"
+		},
+		{
+			"name": "Hyderabad",
+			"Location": "Rajeev Nagar, AG Colony, Hyderabad, Telangana 500045, India",
+			"Telephone": "7659807364"
+		},
+		{
+			"name": "Delhi",
+			"Location": "NFM, Phase-II, Sarai Pipal Thala, Azadpur, New Delhi, 110033, India",
+			"Telephone": "27691804"
+		},
+		{
+			"name": "Mumbai",
+			"Location": "Chhatrapati Shivaji Terminus Area, Fort, Mumbai, Maharashtra 400001, India",
+			"Telephone": "9664036423"
+		},
+		{
+			"name": "Gurgaon",
+			"Location": "Vatika Tower, Golf course Road, Gurgaon, Gurugram, Haryana 122001, India",
+			"Telephone": "19711911031"
+		},
+		{
+			"name": "Bangalore",
+			"Location": "Electronic City, Bengaluru, Karnataka 560100, India",
+			"Telephone": "9980942046"
+		},
+		{
+			"name": "chennai",
+			"Location": "Anna fruit Market Koyambedu, Chennai, Tamil Nadu 600092, India",
+			"Telephone": "4443504092"
+		}
+	]
+}

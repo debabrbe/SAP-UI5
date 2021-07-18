@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+xmlns:anubhav="myfiori.controls">
+	<anubhav:myHeading color="blue" spiderman="My Personal Data"></anubhav:myHeading>
+	<anubhav:myHeading color="red" border="2px solid red" spiderman="Wow"></anubhav:myHeading>
+	<f:SimpleForm visible="{sampleModel>/myVis}">
+		<f:content>
+			<Label text="{i18n>XLBL_UG}"></Label>
+			<Text text="{usage}"></Text>
+			<Label text="{i18n>XLBL_CL}"></Label>
+			<Text text="{color}"></Text>
+			<Label text="{i18n>XLBL_PR}"></Label>
+			<Text text="{price}"></Text>
+			<Text text="{currency}"></Text>
+		</f:content>
+	</f:SimpleForm>
+</core:FragmentDefinition>

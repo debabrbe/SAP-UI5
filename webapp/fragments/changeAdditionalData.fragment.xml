@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+	<f:SimpleForm title="More Product Data" visible="{= !${sampleModel>/myVis}}">
+		<f:content>
+			<Label text="{i18n>XLBL_UG}"></Label>
+			<Input value="{usage}"></Input>
+			<Label text="{i18n>XLBL_CL}"></Label>
+			<Input value="{color}"></Input>
+			<Label text="{i18n>XLBL_PR}"></Label>
+			<Input value="{price}"></Input>
+			<Input value="{currency}"></Input>
+		</f:content>
+	</f:SimpleForm>
+</core:FragmentDefinition>
